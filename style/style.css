@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px 0;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #bfbfbf;
+    font-weight: bold;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #2a3644;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 45px;
+}
+
+/* 2. Таблиця */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 13px 0;
+    font-weight: bold;
+    background-color: #2a3644;
+    border: 1px solid #3f4852;
+}
+
+tbody td:nth-child(n+3) {
+    text-align: right;
+}
+
+tbody td:first-child {
+    text-align: center;
+}
+
+.table tr:first-child th:first-child {
+    width: 60px;
+}
+
+.table td {
+    font-size: 16px;
+    color: #2a3644;
+    background-color: #f2f2f2;
+    padding: 13px 25px;
+    border: 1px solid #c0c1c2;
+    vertical-align: middle;
+}
+
+.table tr:hover td {
+    background-color: #c0c1c2;
+    cursor: pointer;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #e8e8e8;
+}
+
+/* 3. Таблиця стилями */
+
+.table-style {
+    display: table;
+    width: 100%;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-row p,
+.table-row h2 {
+    display: table-cell;
+}
+
+.head h2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2a3644;
+    text-align: center;
+    padding: 13px 0;
+    border: 0.5px solid #3f4852;
+}
+
+.table-row p {
+    background-color: #e8e8e8;
+    padding: 13px;
+    border: 0.5px solid #c0c1c2
+}
+
+.table-style div:hover p {
+    background-color: #c0c1c2;
+    cursor: pointer;
+}
+
+.table-row:nth-child(even) p {
+    background-color: #f2f2f2;
+}
+
+.table-style div:first-child h2:first-child {
+    width: 60px;
+}
+
+.table-row p:first-child {
+    text-align: center;
+}
+
+.table-row p:nth-child(n+3) {
+    text-align: right;
+}
