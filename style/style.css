@@ -29,6 +29,8 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .table th {
@@ -37,10 +39,16 @@ table {
     padding: 13px 0;
     font-weight: bold;
     background-color: #2a3644;
-    border: 1px solid #3f4852;
+    border-left: 1px solid #3f4852;
+    border-top: 1px solid #3f4852;
 }
 
-tbody td:nth-child(n+3) {
+.table th:nth-child(n + 2) th {
+    border-left: none;
+    border-top: none;
+}
+
+tbody td:nth-child(n + 3) {
     text-align: right;
 }
 
@@ -57,8 +65,15 @@ tbody td:first-child {
     color: #2a3644;
     background-color: #f2f2f2;
     padding: 13px 25px;
-    border: 1px solid #c0c1c2;
     vertical-align: middle;
+}
+
+.table td:nth-child(n + 2) {
+    border-left: 1px solid #c0c1c2;
+}
+
+tbody tr:nth-child(n + 2) {
+    border-top: 1px solid #c0c1c2;
 }
 
 .table tr:hover td {
@@ -75,6 +90,9 @@ tbody tr:nth-child(even) td {
 .table-style {
     display: table;
     width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .table-row {
@@ -88,18 +106,31 @@ tbody tr:nth-child(even) td {
 
 .head h2 {
     font-size: 16px;
-    color: #ffffff;
+    color: #fff;
     font-weight: bold;
     background-color: #2a3644;
     text-align: center;
     padding: 13px 0;
-    border: 0.5px solid #3f4852;
+    border-bottom: 1px solid #2a3644;
+}
+
+.head h2:nth-child(n + 2) {
+    border-left: 1px solid #3f4852;
+
 }
 
 .table-row p {
     background-color: #e8e8e8;
     padding: 13px;
-    border: 0.5px solid #c0c1c2
+}
+
+.table-row p:nth-child(n + 2) {
+    border-left: 1px solid #c0c1c2;
+    border-top: 1px solid #c0c1c2;
+}
+
+.table-style div:nth-child(n + 2) {
+    border-top: 1px solid #c0c1c2;
 }
 
 .table-style div:hover p {
