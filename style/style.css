@@ -57,7 +57,13 @@ tbody td:first-child {
 }
 
 .table tr:first-child th:first-child {
-    width: 60px;
+    width: 6.25%;
+}
+
+.table tr:first-child th:nth-child(2) {
+    width: 52.6%;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .table td {
@@ -114,6 +120,12 @@ tbody tr:nth-child(even) td {
     border-bottom: 1px solid #2a3644;
 }
 
+.head h2:nth-child(2) {
+    width: 52.6%;
+    text-align: left;
+    padding-left: 30px;
+}
+
 .head h2:nth-child(n + 2) {
     border-left: 1px solid #3f4852;
 
@@ -121,7 +133,7 @@ tbody tr:nth-child(even) td {
 
 .table-row p {
     background-color: #e8e8e8;
-    padding: 13px;
+    padding: 13px 25px;
 }
 
 .table-row p:nth-child(n + 2) {
@@ -143,7 +155,7 @@ tbody tr:nth-child(even) td {
 }
 
 .table-style div:first-child h2:first-child {
-    width: 60px;
+    width: 6.25%;
 }
 
 .table-row p:first-child {
