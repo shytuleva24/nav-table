@@ -11,9 +11,9 @@
     <main>
         <section class="container">
             <h1>1. Навігація</h1>
-            <div class="nav1">
-                <nav>
-                    <ul class="flex">
+            <div>
+                <nav class="menu">
+                    <ul class="nav1">
                         <li><a href="#">Ковбаса</a></li>
                         <li><a href="#">Салатік</a></li>
                         <li><a href="#">Крабові палочки</a></li>
@@ -21,15 +21,17 @@
                     </ul>
                 </nav>
             </div>
-            <div class="nav1">
+            <div>
                 <nav>
-                    <ul class="flex">
-                        <li><a href="#">Ноутбук</a></li>
-                        <li><a href="#">Телефон</a></li>
-                        <li><a href="#">Холодильник</a></li>
-                        <li><a href="#">Товари для дорослих та дітей</a></li>
-                        <li><a href="#">Різне</a></li>
-                    </ul>
+                    <table>
+                       <tr>
+                           <th><a href="">Ноутбук</a></th>
+                           <th><a href="">Телефон</a></th>
+                           <th><a href="">Холодильник</a></th>
+                           <th><a href="">Товари для дорослих та дітей</a></th>
+                           <th><a href="">Різне</a></th>
+                       </tr>
+                    </table>
                 </nav>
             </div>
             <div class="nav3 flex">
@@ -38,123 +40,127 @@
         </section>
         <section class="container table">
             <h1>2. Таблиця</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th rowspan="2">№</th>
-                        <th rowspan="2">Ім’я</th>
-                        <th colspan="3">Результати</th>
-                    </tr>
-                    <tr>
-                        <th>2016</th>
-                        <th>2017</th>
-                        <th>2018</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>Выль’ям Шекспір</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>4.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>5.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>6.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>7.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                    <tr>
-                        <td>8.</td>
-                        <td>Джон Федор</td>
-                        <td>55,2</td>
-                        <td>71,4</td>
-                        <td>33,7</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">№</th>
+                            <th rowspan="2">Ім’я</th>
+                            <th colspan="3">Результати</th>
+                        </tr>
+                        <tr>
+                            <th>2016</th>
+                            <th>2017</th>
+                            <th>2018</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Выль’ям Шекспір</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Джон Федор</td>
+                            <td>55,2</td>
+                            <td>71,4</td>
+                            <td>33,7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <section class="container">
             <h1>3. Таблиця стилями</h1>
-            <div class="table-style">
-                <div class="table-row head">
-                    <h2>№</h2>
-                    <h2>Назва товару</h2>
-                    <h2>CPU</h2>
-                    <h2>SSD</h2>
-                    <h2>GPU</h2>
-                </div>
-                <div class="table-row">
-                    <p>1.</p>
-                    <p>Настільний iMac</p>
-                    <p>i-7</p>
-                    <p>256</p>
-                    <p>16</p>
-                </div>
-                <div class="table-row">
-                    <p>2.</p>
-                    <p>Ноутбук MacBook Pro 2015</p>
-                    <p>i-7</p>
-                    <p>256</p>
-                    <p>16</p>
-                </div>
-                <div class="table-row">
-                    <p>3.</p>
-                    <p>Смартфон Samsung</p>
-                    <p>i-7</p>
-                    <p>256</p>
-                    <p>16</p>
-                </div>
-                <div class="table-row">
-                    <p>4.</p>
-                    <p>Телевізор Philips</p>
-                    <p>i-7</p>
-                    <p>256</p>
-                    <p>16</p>
-                </div>
-                <div class="table-row">
-                    <p>5.</p>
-                    <p>Годинник Asahi</p>
-                    <p>i-7</p>
-                    <p>256</p>
-                    <p>16</p>
+            <div class="table-wrap">
+                <div class="table-style">
+                    <div class="table-row head">
+                        <h2>№</h2>
+                        <h2>Назва товару</h2>
+                        <h2>CPU</h2>
+                        <h2>SSD</h2>
+                        <h2>GPU</h2>
+                    </div>
+                    <div class="table-row">
+                        <p>1.</p>
+                        <p>Настільний iMac</p>
+                        <p>i-7</p>
+                        <p>256</p>
+                        <p>16</p>
+                    </div>
+                    <div class="table-row">
+                        <p>2.</p>
+                        <p>Ноутбук MacBook Pro 2015</p>
+                        <p>i-7</p>
+                        <p>256</p>
+                        <p>16</p>
+                    </div>
+                    <div class="table-row">
+                        <p>3.</p>
+                        <p>Смартфон Samsung</p>
+                        <p>i-7</p>
+                        <p>256</p>
+                        <p>16</p>
+                    </div>
+                    <div class="table-row">
+                        <p>4.</p>
+                        <p>Телевізор Philips</p>
+                        <p>i-7</p>
+                        <p>256</p>
+                        <p>16</p>
+                    </div>
+                    <div class="table-row">
+                        <p>5.</p>
+                        <p>Годинник Asahi</p>
+                        <p>i-7</p>
+                        <p>256</p>
+                        <p>16</p>
+                    </div>
                 </div>
             </div>
         </section>

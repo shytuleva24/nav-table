@@ -17,8 +17,6 @@ table,
 .nav3 {
     width: 100%;
     border-collapse: collapse;
-    border-radius: 3px;
-    overflow: hidden;
 }
 
 ul {
@@ -44,27 +42,42 @@ a {
 
 /* 1 */
 .nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding-left: 0;
+    list-style: none;
     background-color: #2a3644;
-    margin-bottom: 40px;
+    border-radius: 3px;
 }
 
-.nav1 li {
-    padding: 14px 30px;
+.nav1 li:last-child a {
+    border-radius: 0 3px 3px 0;
+    border-right: none;
 }
 
+.nav1 li:first-child a {
+    border-radius: 3px 0 0 3px;
+    border-left: none;
+}
+
+.nav1 li a {
+    border-right: 1px solid #3f4852;
+    border-left: 1px solid #3f4852;
+}
+  
+  
 .nav1 a {
+    display: inline-block;
+    padding: 13px 30px;
     font-size: 16px;
     color: #ffffff;
     font-weight: bold;
 }
 
 .nav1 a:hover {
-    color: #fd8612;
-} 
-
-.nav1 li:hover {
-    background-color: #3f4852;
-    color: #fd8612;
+background-color: #3f4852;
+color: #fd8612;
 }
 
 /* 2 */
