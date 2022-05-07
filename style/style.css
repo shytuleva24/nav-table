@@ -59,7 +59,11 @@ a {
 /* Перше меню */
 .food ul {
     background-color: #2a3644;
-    border-radius: 3px;
+    border-radius: 5px;
+}
+
+.food nav > ul > li {
+    position: relative;
 }
 
 .food a {
@@ -74,19 +78,55 @@ a {
     color: #fd8612;
 }
 
-.food li:first-child a {
-    border-radius: 3px 0 0 3px;
+.food nav > ul > li:first-child > a {
+    border-radius: 5px 0 0 5px;
     border-left:none;
 }
 
-.food li:last-child a {
-    border-radius: 0 3px 3px 0;
+.food nav > ul > li:last-child > a {
+    border-radius: 0 5px 5px 0;
     border-right: none;
 }
 
-/* .food li:hover .sub-menu {
+.food li:hover .sub-menu {
     display: block;
-} */
+}
+
+.sub-menu {
+    position: absolute;
+    z-index: 1;
+    width: 211px;
+    background-color: #d2d4d5;
+    border-left: none;
+    border-right: none;
+}
+
+.sub-menu.right {
+    right: 49%;
+}
+
+.sub-menu a {
+    width: 100%;
+    height: 100%;
+    background-color: #d2d4d5;
+    border-top: 1px solid #b9bdc1;
+    color: #2a3644;
+}
+
+.sub-menu a:nth-child(n + 2)
+
+.sub-menu li:hover a {
+    background-color: #2a3644;
+    color: #fd8612;
+}
+
+.sub-menu li:first-child a {
+    border-radius: 5px 5px 0 0;
+}
+
+.sub-menu li:last-child a {
+    border-radius: 0 0 5px 5px;
+}
 
 /* Друге меню */
 .menu-technics {
