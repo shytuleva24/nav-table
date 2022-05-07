@@ -84,9 +84,9 @@ a {
     border-right: none;
 }
 
-.food li:hover .sub-menu {
+/* .food li:hover .sub-menu {
     display: block;
-}
+} */
 
 /* Друге меню */
 .menu-technics {
