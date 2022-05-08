@@ -69,11 +69,14 @@ a {
 .food a {
     display: inline-block;
     padding: 14px 30px;
+}
+
+.food nav > ul > li > a {
     border-left: 1px solid #3f4852;
     border-right: 1px solid #3f4852;
 }
 
-.food a:hover {
+.food nav > ul > li > a:hover {
     background-color: #3f4852;
     color: #fd8612;
 }
@@ -112,8 +115,6 @@ a {
     border-top: 1px solid #b9bdc1;
     color: #2a3644;
 }
-
-.sub-menu a:nth-child(n + 2)
 
 .sub-menu li:hover a {
     background-color: #2a3644;
