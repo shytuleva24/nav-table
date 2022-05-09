@@ -66,7 +66,7 @@ li, p {
 /* Перше меню */
 .food ul {
     background-color: #2a3644;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .food nav > ul > li {
@@ -89,12 +89,12 @@ li, p {
 }
 
 .food nav > ul > li:first-child > a {
-    border-radius: 5px 0 0 5px;
+    border-radius: 3px 0 0 3px;
     border-left:none;
 }
 
 .food nav > ul > li:last-child > a {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
     border-right: none;
 }
 
@@ -116,8 +116,7 @@ li, p {
 }
 
 .sub-menu a {
-    width: 100%;
-    height: 100%;
+   display: block;
     background-color: #d2d4d5;
     color: #2a3644;
 }
@@ -132,11 +131,11 @@ li, p {
 }
 
 .sub-menu li:first-child a {
-    border-radius: 5px 5px 0 0;
+    border-radius: 3px 3px 0 0;
 }
 
 .sub-menu li:last-child a {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 3px 3px;
 }
 
 /* Друге меню */
@@ -165,10 +164,8 @@ li, p {
 }
 
 .menu-technics a {
-    display: inline-block;
+    display: block;
     padding: 14px 0;
-    width: 100%;
-    height: 100%;
 }
 
 .menu-technics p:hover a {
