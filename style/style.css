@@ -283,6 +283,28 @@ li, p {
     top: -5px;
 }
 
+.services > li:nth-child(-n + 4) > a {
+    border-right: 1px solid #b9bdc1;
+}
+
+.services > li:nth-child(5) > a {
+    border: 0;
+    border-radius: 0 3px 0 0;
+}
+
+.services > li:nth-child(1) > a {
+    border-right: 1px solid #b9bdc1;
+    border-radius: 3px 0 0 0;
+}
+
+.services > li:nth-child(4) > a {
+    border-radius: 0 0 0 3px;
+}
+
+.services > li:last-child > a {
+    border-radius: 0;
+    border-bottom: 1px solid #b9bdc1;
+}
 
 /* Перша таблиця */
 .table-statistics,
