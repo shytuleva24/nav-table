@@ -242,12 +242,6 @@ li, p {
     border-radius: 3px 0 0 3px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 444px);
-    grid-template-rows: repeat(2, 200px);
-}
-
 .home a:before {
     content: '';
     position: absolute;
