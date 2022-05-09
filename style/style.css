@@ -26,6 +26,7 @@ a {
     font-size: 16px;
     color: #ffffff;
     font-weight: bold;
+    display: block;
 }
 li, p {
     position: relative;
@@ -99,7 +100,8 @@ li, p {
     border-right: none;
 }
 
-.food li:hover .sub-menu {
+.food li:hover .sub-menu,
+.village li:hover .sub-menu {
     display: block;
 }
 
@@ -117,7 +119,6 @@ li, p {
 }
 
 .sub-menu a {
-   display: block;
     background-color: #d2d4d5;
     color: #2a3644;
 }
@@ -140,6 +141,7 @@ li, p {
 }
 
 /* Друге меню */
+
 .hover-sub:hover > .sub-menu {
     display: block;
 }
@@ -189,7 +191,6 @@ li, p {
 }
 
 .menu-technics a {
-    display: block;
     padding: 14px 0;
 }
 
@@ -222,18 +223,20 @@ li, p {
 }
 
 .village-menu a {
-    display: inline-block;
     padding: 15px 30px;
+}
+
+.village-menu > li > a {
     border-left: 1px solid #3f4852;
 }
 
-.village-menu li:hover a {
+.village-menu > li:hover > a {
     background-color: #3f4852;
     color: #fd8612;
 }
 
 
-.village-menu li:first-child a {
+.village-menu > li:first-child > a {
     padding-left: 58px;
     border-left: none;
     border-radius: 3px 0 0 3px;
@@ -254,7 +257,6 @@ li, p {
 }
 
 .social a {
-   display: block;
    padding-right: 30px;
    fill:#fff; 
 }
