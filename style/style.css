@@ -293,7 +293,6 @@ li, p {
 }
 
 .services > li:nth-child(1) > a {
-    border-right: 1px solid #b9bdc1;
     border-radius: 3px 0 0 0;
 }
 
