@@ -201,15 +201,6 @@ li.home > a {
     fill:#fd8300;
     z-index: 1;
 }
-/* .home a:before {
-    content: '';
-    position: absolute;
-    top: 17px;
-    left: 30px;
-    width: 16px;
-    height: 13px;
-    background: url(../img/home.png);
-} */
 
 .social {
     align-items: center;
