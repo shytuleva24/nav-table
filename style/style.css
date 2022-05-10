@@ -183,12 +183,25 @@ li, p {
 
 
 .village-menu > li:first-child > a {
-    padding-left: 58px;
     border-left: none;
     border-radius: 3px 0 0 3px;
 }
 
-.home a:before {
+li.home > a {
+    padding-left: 64px;
+}
+
+
+.house {
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    width: 16px;
+    height: 13px;
+    fill:#fd8300;
+    z-index: 1;
+}
+/* .home a:before {
     content: '';
     position: absolute;
     top: 17px;
@@ -196,7 +209,7 @@ li, p {
     width: 16px;
     height: 13px;
     background: url(../img/home.png);
-}
+} */
 
 .social {
     align-items: center;
@@ -215,7 +228,7 @@ li, p {
 
 .sub-menu {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     width: 211px;
     border-left: none;
     border-right: none;
